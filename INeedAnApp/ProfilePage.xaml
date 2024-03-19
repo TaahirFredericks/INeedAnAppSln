@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="INeedAnApp.ProfilePage"
+             Title="Profile Page">
+    <VerticalStackLayout>
+        <Entry
+            x:Name="NameEntry"
+            Placeholder="Name"
+            TextColor="Black"
+            FontSize="24"
+            WidthRequest="450"
+            Text="{Binding Details.Name}"/>
+
+        <Entry
+            x:Name="SurnameEntry"
+            Placeholder="Surname"
+            TextColor="Black"
+            FontSize="24"
+            WidthRequest="450"
+            Text="{Binding Details.Surname}"/>
+
+        <Entry
+            x:Name="EmailEntry"
+            Placeholder="Email Address"
+            TextColor="Black"
+            FontSize="24"
+            WidthRequest="450"
+            Text="{Binding Details.EmailAddress}"/>
+
+        <Entry
+            x:Name="PasswordEntry"
+            Placeholder="Password"
+            TextColor="Black"
+            FontSize="24"
+            WidthRequest="450"
+            Text="{Binding Details.Password}"/>
+
+        <Button
+            Margin="35"
+            Text="Save" 
+            SemanticProperties.Hint="Counts the number of times you click"
+            HorizontalOptions="Fill" 
+            WidthRequest="250"
+            BackgroundColor="IndianRed"/>
+    </VerticalStackLayout>
+</ContentPage>
