@@ -1,8 +1,4 @@
-﻿
-
-
-
-namespace INeedAnApp
+﻿namespace INeedAnApp
 {
     public partial class AppShell : Shell
     {
@@ -10,7 +6,5 @@ namespace INeedAnApp
         {
             InitializeComponent();
         }
-
-        
     }
 }

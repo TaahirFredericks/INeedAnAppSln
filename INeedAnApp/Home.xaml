@@ -4,23 +4,549 @@
              x:Class="INeedAnApp.Home"
              BackgroundColor="Grey"
              Title="Home">
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <Image
-                Margin="30"
-                Source="laking"
-                WidthRequest="500"
-                HeightRequest="450"
-                Aspect="AspectFit"/>
+    <ScrollView Orientation="Vertical">
+        <VerticalStackLayout>
+            
+                <Label
+                     Text="VinTees"
+                     HorizontalTextAlignment="Center"
+                     FontAttributes="Bold"
+                     TextColor="White"
+                     FontSize="50"
+                     Margin="16,30,0,0"/>
+            
+                <Image
+                     Margin="50"
+                     Source="lans"
+                     Aspect="Fill"
+                     HeightRequest="450"
+                     WidthRequest="700" />
+           
+            
 
-            <Label
-                Text="SHIRTS!"
-                TextColor="White"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="Medium"/>
+            <Label 
+                Text="T-Shirts" 
+                TextColor="White" 
+                FontSize="20" 
+                FontAttributes="Bold" 
+                Margin="16,30,0,0"/>
+
+            <ScrollView Orientation="Horizontal">
+                <HorizontalStackLayout>
+
+
+
+
+                    <Grid ColumnDefinitions="*,*,*,*,*,*"
+                          RowDefinitions="*" >
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.ColumnSpan="0"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White" 
+                            Margin="16,10,0,20">
+
+                            <ImageButton Source="laking" Aspect="Fill"/>
+                        </Frame>
+
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="1"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="beanie" Aspect="Fill"/>
+
+                        </Frame>
+
+
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="2"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="cartoon" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="3"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="shirt" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="4"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White" 
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="brown" Aspect="AspectFill"/>
+
+                        </Frame>
+
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="5"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="banda" Aspect="AspectFill"/>
+
+                        </Frame>
+
+
+
+                    </Grid>
+
+
+
+                </HorizontalStackLayout>
+            </ScrollView>
+
+            <Label 
+                Text="Jerseys and Hoodies" 
+                TextColor="White" 
+                FontSize="20" 
+                FontAttributes="Bold" 
+                Margin="16,30,0,0"/>
+
+            <ScrollView Orientation="Horizontal">
+                <HorizontalStackLayout>
+
+
+
+
+                    <Grid ColumnDefinitions="*,*,*,*,*,*"
+                          RowDefinitions="*" >
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.ColumnSpan="0"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White" 
+                            Margin="16,10,0,20">
+
+                            <ImageButton Source="bear" Aspect="Fill"/>
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="1"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="brooklyn" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="2"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="cest" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="3"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="blackbear" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="4"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="flanny" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="5"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="michigan" Aspect="AspectFill"/>
+
+                        </Frame>
+                    </Grid>
+                </HorizontalStackLayout>
+            </ScrollView>
+
+            <Label 
+                Text="Shoes" 
+                TextColor="White" 
+                FontSize="20" 
+                FontAttributes="Bold" 
+                Margin="16,30,0,0"/>
+
+            <ScrollView Orientation="Horizontal">
+                <HorizontalStackLayout>
+
+
+
+
+                    <Grid ColumnDefinitions="*,*,*,*,*,*"
+                          RowDefinitions="*" >
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.ColumnSpan="0"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White" 
+                            Margin="16,10,0,20">
+
+                            <ImageButton Source="blacks" Aspect="Fill"/>
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="1"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="bally" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="2"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="fashion" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="3"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="pumps" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="4"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="sandals" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="5"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="whites" Aspect="AspectFill"/>
+
+                        </Frame>
+                    </Grid>
+                </HorizontalStackLayout>
+            </ScrollView>
+            
+            
+           
+            <Label 
+                Text="Bags" 
+                TextColor="White" 
+                FontSize="20" 
+                FontAttributes="Bold" 
+                Margin="16,30,0,0"/>
+
+            <ScrollView Orientation="Horizontal">
+                <HorizontalStackLayout>
+
+
+
+
+                    <Grid ColumnDefinitions="*,*,*,*,*,*"
+                          RowDefinitions="*" >
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.ColumnSpan="0"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White" 
+                            Margin="16,10,0,20">
+
+                            <ImageButton Source="blackfanny" Aspect="Fill"/>
+                        </Frame>
+
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="1"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="fashionb" Aspect="Fill"/>
+
+                        </Frame>
+
+
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="2"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="kuchen" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="3"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="oldfashion" Aspect="AspectFill"/>
+
+                        </Frame>
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="4"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White" 
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="teddy" Aspect="AspectFill"/>
+
+                        </Frame>
+
+
+                        <Frame 
+                            Grid.Row="0" 
+                            Grid.Column="5"
+                            HeightRequest="300"
+                            WidthRequest="200"
+                            CornerRadius="5"
+                            HorizontalOptions="Start"
+                            IsClippedToBounds="True"
+                            Padding="0"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            Margin="16,10,0,20">
+
+
+                            <ImageButton Source="shoulder" Aspect="AspectFill"/>
+
+                        </Frame>
+
+
+
+                    </Grid>
+
+
+
+                </HorizontalStackLayout>
+            </ScrollView>
+
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
